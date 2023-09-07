@@ -1,0 +1,10 @@
+verbosity=1
+bootlogo=false
+console=serial
+disp_mode=1920x1080p60
+overlay_prefix=sun8i-h3
+overlays=i2c0 spi-add-cs1 spi-spidev uart1 usbhost2 usbhost3
+rootdev=UUID= (здесь id, подставить свой)
+rootfstype=ext4
+user_overlays=opizero_st7796_x
+usbstoragequirks=0x2537:0x1066:u,0x2537:0x1068:u
